@@ -51,3 +51,24 @@ a:hover { color: #ababff; }
     display: flex;
     gap: 30em;
 }
+
+#cats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    aspect-ratio: auto;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+}
