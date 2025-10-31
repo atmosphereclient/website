@@ -103,6 +103,12 @@ let photos = [
     "both/1.png",
     "mj/1.png",
     "mj/2.png",
+    "mj/3.png",
+    "mj/4.png",
+    "mj/5.png",
+    "mj/6.png",
+    "scruffy/1.png",
+    "scruffy/2.png"
 ].map(a => `cats/${a}`);
 
 let currentIndex = stories.length;
