@@ -1,3 +1,4 @@
+// news
 let stories = [
     // 04/09/25
     "BREAKING: Father christmas proven to be REAL by scientists",
@@ -84,21 +85,46 @@ let stories = [
     "Find us on wplace.live!",
     "So I got this new client, it's called RektSky",
     "ReekerHJEMbduJQA",
-    "FRUIT SHOOT BYPASS - ATMOSPHERE HYPERCHARGED C-- SUPERINJECTOR AND PERPENDICULAR BACKTRACK"
-]
+    "FRUIT SHOOT BYPASS - ATMOSPHERE HYPERCHARGED C-- SUPERINJECTOR AND PERPENDICULAR BACKTRACK",
+
+    // 10/21/25
+    "minefun.player.sendPacket(new GotDamageC2SPacket(-regenAmount.get())) ez regen bypass",
+    "LiquidBounce skidded ZeroDay because ZeroDay invented Chromium bloat inside the game.",
+    "visit my website @ sandbox.minefun.io",
+    "ouy'er*",
+    "Sorry, you have been blocked\nYou are unable to access atmosphere.wtf",
+    "Refactor Recaftor Refactor Recaftor Refactor Recaftor Refactor... ???",
+    "\"I'm not indian. Can you send me unbans?\" - Trillionare / Magnus",
+    "This cannot continue for any longer."
+];
+
+// why
+let photos = [
+    "both/1.png",
+    "mj/1.png",
+    "mj/2.png",
+].map(a => `cats/${a}`);
 
 let currentIndex = stories.length;
-while (currentIndex != 0){
+while (currentIndex != 0) {
     let randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
     [stories[currentIndex], stories[randomIndex]] = [stories[randomIndex], stories[currentIndex]];
 }
 
-const news = document.getElementById("news")
+const news = document.getElementById("news");
+const cats = document.getElementById("cats");
 
 news.innerText = "";
+
 for (story of stories) {
     const storyElm = document.createElement("div");
     storyElm.innerText = story;
     news.append(storyElm);
+}
+
+for (const path of photos) {
+    const p = document.createElement("img");
+    p.src = path;
+    cats.append(p);
 }
