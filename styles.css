@@ -6,11 +6,12 @@
 
 :root {
     --accent: #8080FF;
+    --bg: #191919;
 }
 
 body {
     font-family: "proggy", Arial, sans-serif;
-    background-color: #191919;
+    background-color: var(--bg);
     text-align: center;
     color: white;
     margin: 0;
@@ -34,6 +35,8 @@ a:hover { color: #ababff; }
 .box-content {
     border: 2px solid #777;
     padding: 20px;
+    /* the cat photos go under the box, which could make the contents not readable. */
+    background-color: var(--bg);
 }
 
 .box-title {
