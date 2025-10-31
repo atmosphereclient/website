@@ -126,5 +126,7 @@ for (story of stories) {
 for (const path of photos) {
     const p = document.createElement("img");
     p.src = path;
+    p.width = 240;
+    p.height = 480;
     cats.append(p);
 }
