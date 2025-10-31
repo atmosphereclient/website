@@ -124,13 +124,10 @@ for (story of stories) {
 }
 
 for (const path of photos) {
-    const container = document.createElement("div");
-    container.className = "image-container";
-
     const p = document.createElement("img");
     p.src = path;
-    p.alt = "Cat photo";
-
-    container.appendChild(p);
-    cats.appendChild(container);
+    // magic numbers (it's just their width and height divided by 4 lol)
+    p.width = 612;
+    p.height = 816;
+    cats.append(p);
 }
