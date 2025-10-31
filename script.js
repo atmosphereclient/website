@@ -126,8 +126,9 @@ for (story of stories) {
 for (const path of photos) {
     const p = document.createElement("img");
     p.src = path;
-    // magic numbers (it's just their width and height divided by 4 lol)
-    p.width = 612;
-    p.height = 816;
+    // magic numbers (it's just their width and height divided by 6 lol)
+    // the images are all 2448 by 3264
+    p.width = 408;
+    p.height = 544;
     cats.append(p);
 }
