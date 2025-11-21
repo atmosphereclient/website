@@ -87,15 +87,32 @@ let stories = [
     "ReekerHJEMbduJQA",
     "FRUIT SHOOT BYPASS - ATMOSPHERE HYPERCHARGED C-- SUPERINJECTOR AND PERPENDICULAR BACKTRACK",
 
+   // codingfire fork
+    "Apollo god botnet",
+    "atmosphere scaffold theory",
+    "Fix - cgbakery",
+    "Revert \"Fix\" - cgbakery",
+    "Scratch bypass",
+    // "brutality? more like source-leak-tality",
+    "Blahaj client clickgui flag",
+    "Hop on mospixel twin",
+    "cat",
+    "mullvad.net",
+    "OPSEC",
+    "Divine Intellect Compiler",
+    "funny shit in a chest"
+
     // 10/21/25
     "minefun.player.sendPacket(new GotDamageC2SPacket(-regenAmount.get())) ez regen bypass",
+    "minefun patched funny method regen :(",
     "LiquidBounce skidded ZeroDay because ZeroDay invented Chromium bloat inside the game.",
     "visit my website @ sandbox.minefun.io",
     "ouy'er*",
     "Sorry, you have been blocked\nYou are unable to access atmosphere.wtf",
     "Refactor Recaftor Refactor Recaftor Refactor Recaftor Refactor... ???",
     "\"I'm not indian. Can you send me unbans?\" - Trillionare / Magnus",
-    "This cannot continue for any longer."
+    "This cannot continue for any longer.",
+    "Apollo like Apollo GraphQL?"
 ];
 
 // why
