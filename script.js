@@ -1,3 +1,4 @@
+// news
 let stories = [
     // 04/09/25
     "BREAKING: Father christmas proven to be REAL by scientists",
@@ -100,20 +101,64 @@ let stories = [
     "OPSEC",
     "Divine Intellect Compiler",
     "funny shit in a chest"
-]
+
+    // 10/21/25
+    "minefun.player.sendPacket(new GotDamageC2SPacket(-regenAmount.get())) ez regen bypass",
+    "minefun patched funny method regen :(",
+    "LiquidBounce skidded ZeroDay because ZeroDay invented Chromium bloat inside the game.",
+    "visit my website @ sandbox.minefun.io",
+    "ouy'er*",
+    "Sorry, you have been blocked\nYou are unable to access atmosphere.wtf",
+    "Refactor Recaftor Refactor Recaftor Refactor Recaftor Refactor... ???",
+    "\"I'm not indian. Can you send me unbans?\" - Trillionare / Magnus",
+    "This cannot continue for any longer.",
+    "Apollo like Apollo GraphQL?"
+];
+
+// why
+let photos = [
+    "both/1.png",
+    "mj/1.png",
+    "mj/2.png",
+    "mj/3.png",
+    "mj/4.png",
+    "mj/5.png",
+    "mj/6.png",
+    "mj/7.jpg",
+    "mj/8.jpg",
+    "mj/9.png",
+    "mj/10.png",
+    "mj/11.png",
+    "scruffy/1.png",
+    "scruffy/2.png",
+    "scruffy/3.jpg",
+    "scruffy/4.jpg"
+].map(a => `cats/${a}`);
 
 let currentIndex = stories.length;
-while (currentIndex != 0){
+while (currentIndex != 0) {
     let randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
     [stories[currentIndex], stories[randomIndex]] = [stories[randomIndex], stories[currentIndex]];
 }
 
-const news = document.getElementById("news")
+const news = document.getElementById("news");
+const cats = document.getElementById("cats");
 
 news.innerText = "";
+
 for (story of stories) {
     const storyElm = document.createElement("div");
     storyElm.innerText = story;
     news.append(storyElm);
+}
+
+for (const path of photos) {
+    const p = document.createElement("img");
+    p.src = path;
+    // magic numbers (it's just their width and height divided by 6 lol)
+    // the images are all 2448 by 3264
+    p.width = 408;
+    p.height = 544;
+    cats.append(p);
 }
