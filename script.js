@@ -84,21 +84,21 @@ let stories = [
     "Find us on wplace.live!",
     "So I got this new client, it's called RektSky",
     "ReekerHJEMbduJQA",
-    "FRUIT SHOOT BYPASS - ATMOSPHERE HYPERCHARGED C-- SUPERINJECTOR AND PERPENDICULAR BACKTRACK"
+    "FRUIT SHOOT BYPASS - ATMOSPHERE HYPERCHARGED C-- SUPERINJECTOR AND PERPENDICULAR BACKTRACK",
 
    // codingfire fork
-    "Apollo god botnet"
-    "atmosphere scaffold theory"
-    "Fix - cgbakery"
-    "Revert \"Fix"\" - cgbakery" // - i hope this works
-    "Scratch bypass"
-    "brutality? more like source-leak-tality"
-    "Blahaj client clickgui flag"
-    "Hop on mospixel twin"
-    "cat"
-    "mullvad.net"
-    "OPSEC"
-    "Divine Intellect Compiler"
+    "Apollo god botnet",
+    "atmosphere scaffold theory",
+    "Fix - cgbakery",
+    "Revert \"Fix\" - cgbakery",
+    "Scratch bypass",
+    // "brutality? more like source-leak-tality",
+    "Blahaj client clickgui flag",
+    "Hop on mospixel twin",
+    "cat",
+    "mullvad.net",
+    "OPSEC",
+    "Divine Intellect Compiler",
     "funny shit in a chest"
 ]
 
